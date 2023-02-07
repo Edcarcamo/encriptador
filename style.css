@@ -1,0 +1,138 @@
+*{
+    background: darkorange;
+    
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    margin: 0;
+    padding: 0;
+            
+}    
+.logo{
+    padding: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+
+}
+.tex-area{
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+::placeholder{color: #0A3871;}
+.tex-area:focus{
+    outline: none;
+}
+.mensaje{
+    width: 400px;
+    height: 750px;
+    top: 40px;
+    background: white;
+    box-shadow: 0px 24px 32px -8px (0,0,0,08);
+    border: none;
+    border-radius: 32px;
+    background-image: url("imagenes/Muñeco\ \(1\).png");
+    background-size: 360px;
+    background-position: center ;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    color: #0A3871;
+    margin-left: 0px;
+    margin-top: 20px;
+    padding-left: 30px;
+    position: absolute;   
+}
+.mensaje:focus{
+    outline: none;
+}
+
+
+.botones{
+    display: flex;
+    margin-top: 20px;
+
+}
+.btn-encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-right: 10px
+
+}
+.btn-encriptar:hover{
+        transform: scale(1.05);
+}
+.btn-desencriptar{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 10px;
+    width: 328px;
+    margin-right: 30px;
+    
+}
+.btn-desencriptar:hover{
+     transform: scale(1.05);
+    
+}
+.copiar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 250px;
+    margin-left: 100px ;
+    margin-top: 600px;
+    position: absolute;
+}
+.copiar:hover{
+        transform: scale(1.07);
+}
+.mensaje::-webkit-input-placeholder{
+    text-align: center;
+    color: #343A40;
+    height: 58px;
+    margin-top: 500px;
+    position: absolute;
+    
+    
+   
+}
+footer{
+    background-image:url("imagenes/bg.jpg");
+    padding: 40px;
+    text-align: center;
+    font-size: 10px;
+
+
+    
+}
+.pieDePagina{
+    font-style: italic;
+    font-size: 20px;
+    background: none;
+    color: #D8DFE8;
+
+}
+
+
+    
+
+
+
